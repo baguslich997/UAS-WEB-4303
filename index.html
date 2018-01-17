@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>INDO RESTO</title>
+     <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/slider.css">
+	 <link rel="stylesheet" href="css/zerogrid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen"> 
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/sForm.js"></script>
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+     <script src="js/tms-0.4.1.js"></script>
+	 <script src="js/css3-mediaqueries.js"></script>
+     <script>
+      $(window).load(function(){
+      $('.slider')._TMS({
+              show:0,
+              pauseOnHover:false,
+              prevBu:'.prev',
+              nextBu:'.next',
+              playBu:false,
+              duration:800,
+              preset:'fade', 
+              pagination:true,//'.pagination',true,'<ul></ul>'
+              pagNums:false,
+              slideshow:8000,
+              numStatus:false,
+              banners:false,
+          waitBannerAnimation:false,
+        progressBar:false
+      })  
+      });
+      
+     $(window).load (
+    function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev',next: '.next', width: 960, items: {
+      visible : {min: 1,
+       max: 4
+},
+height: 'auto',
+ width: 240,
+
+    }, responsive: false, 
+    
+    scroll: 1, 
+    
+    mousewheel: false,
+    
+    swipe: {onMouse: false, onTouch: false}});
+    
+    
+    });      
+
+     </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+    <![endif]-->
+     </head>
+     <body>
+       <div class="main">
+<!--==============================header=================================-->
+ <header> 
+  <div class="zerogrid">
+    <div class="col-full">
+	<div class="wrap-col">
+    <h1><a href="index.html"><img src="images/logo.png" alt="EXTERIOR"></a> </h1>
+    
+         <div class="menu_block">
+           <nav>
+            <ul class="sf-menu">
+                   <li class="current"><a href="index.html">Beranda</a></li>
+                   <li class="with_ul"><a href="index-1.html">Tentang</a>
+				   	<ul>
+                     </ul>
+				   </li>
+                   <li><a href="index-2.html">Menu</a></li>
+                   <li><a href="index-4.html">Detail Makanan</a></li>
+                   <li><a href="index-5.html">Kontak</a></li>
+                 </ul>
+           </nav>
+           <div class="clear"></div>
+           </div>
+           <div class="clear"></div>
+		</div>
+      </div>
+    </div>
+</header>
+ <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slide1.png" alt=""></li>
+          <li><img src="images/slide2.png" alt=""></li>
+          <li class="mb0"><img src="images/slide3.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+ </div>
+<!--=======content================================-->
+
+<div class="content page1">
+  <div class="zerogrid">
+      <div class="row">
+      <div class="col-3-5">
+	  	<div class="wrap-col">
+	        <h2>Selamat Datang</h2>
+	        <div class="page1_block col1">
+				<div class="col-1-3"><img src="images/welcome_duta.png" alt=""></div>
+				<div class="col-2-3">
+		          <div class="extra_wrapper">
+		           Indo Resto merupakan Restoran yang menyajikan hidangan khas dari daerah - daerah di Indonesia. Kunjungi tempat kami Pada alamat : Jl. Gajah Mada No.88, Semarang. Telepon : +628985604657 | Fax : (024) 1234.5678
+
+		          </div>
+			  </div>
+	          <div class="clear"></div>
+	        </div>
+		</div>
+      </div>
+      <div class="col-2-5">
+	  	<div class="wrap-col">
+	        <h2>Fasilitas Tempat</h2>
+	        <ul class="list">
+	          <li><a >Tempat Nyaman</a></li>
+	          <li><a >Harga Terjangkau</a></li>
+	          <li><a >Rasa lezat dan porsi besar</a></li>
+	          <li><a >tempat Ibadah</a></li>
+	          <li><a >Parkir Luas</a></li>
+	          <li><a >Melayani Booking Tempat</a></li>
+	        </ul>
+		</div>
+      </div>
+      </div>
+      <div class="col-full">
+        <div class="hor_separator"></div>
+      </div>
+	  <div class="row">
+      <div class="col-full">
+	  	<div class="wrap-col">
+        <div class="car_wrap">
+        <h2>Menu Pilihan</h2>
+        <a href="#" class="prev"></a><a href="#" class="next"></a>
+        <ul class="carousel1">
+          <li><div><img src="images/ayam_cincane.png" alt="">
+          <div class="col1 upp"> <a href="#">Ayam Cincane</a></div>
+          <span>Khas Kalimantan Barat</span>
+          <div class="price"> Rp 25.000</div></div>
+          </li>
+          <li><div><img src="images/brengkes_tempoyak_patin.png" alt="">
+          <div class="col1 upp"> <a href="#">Brengkes Tempoyak Patin</a></div>
+          <span>Khas dari Sumatra Selatan</span>
+          <div class="price"> Rp 21.000</div></div>
+          </li>
+          <li><div><img src="images/catemak_jagung.png" alt="">
+          <div class="col1 upp"> <a href="#">Catemak Jagung</a></div>
+          <span>Makanan khas dari NTT</span>
+          <div class="price"> Rp 15.000</div></div>
+          </li>
+          <li><div><img src="images/gado_gado.png" alt="">
+          <div class="col1 upp"> <a href="#">Gado - Gado</a></div>
+          <span>Makanan khas dari Jawa</span>
+          <div class="price"> Rp 12.000</div></div>
+          </li>
+          <li><div><img src="images/gulai_ikan_sala.png" alt="">
+          <div class="col1 upp"> <a href="#">Gulai Ikan Salai</a></div>
+          <span>Makanan khas dari Riau</span>
+          <div class="price"> Rp 14.000</div></div>
+          </li>
+          <li><div><img src="images/gurame_pecak.png" alt="">
+          <div class="col1 upp"> <a href="#">Gurame Pecak</a></div>
+          <span>Makanan khas dari betawi</span>
+          <div class="price"> Rp 30.000</div></div>
+          </li>
+        </ul>
+      </div>
+	  </div>
+    </div>
+	</div>
+
+	 <div class="row">
+    <div class="bottom_block">
+      <div class="col-1-2">
+        <h3>Ikuti Kami</h3>
+        <div class="socials">
+          <a href="https://www.facebook.com/bagusduta.prasetya"></a>
+          <a href="https://twitter.com/bagusduta997"></a>
+          <a href="https://www.instagram.com/bagus_duta_prasetya"></a>
+        </div>
+        <nav><ul>
+                   <li class="current"><a href="index.html">Beranda</a></li>
+                   <li ><a href="index-1.html">Tentang</a></li>
+                   <li><a href="index-2.html">Menu</a></li>
+                   <li><a href="index-4.html">Detail Makanan</a></li>
+                   <li><a href="index-5.html">Kontak</a></li>
+                 </ul></nav>
+      </div>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="zerogrid">
+    <div class="col-full">
+    <div class="wrap-col">
+     INDO RESTO TRADISIONAL   &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; MAKANAN KHAS DARI INDONESIA
+    </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
